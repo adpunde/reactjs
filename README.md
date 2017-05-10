@@ -16,6 +16,7 @@
   npm install babel-preset-es2015
 4. Create the App folder. Create index.html, App.jsx, main.js and webpack.config.js.
 5. Modify webpack.config.js as follows:
+```
 var path = require('path');
 var config = {
   entry: './main.js',
@@ -47,8 +48,9 @@ var config = {
 }
 
 module.exports = config;
-6. Add following entry to packages.json
-  "start": "webpack-dev-server --hot"
+```
+6. Add following entry to package.json
+` "start": "webpack-dev-server --hot" `
 7. Add your code to html, jsx, css etc. files.
 8. Run npm start from the App directory.
   webpack: Compiled successfully should appear on the console.
