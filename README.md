@@ -1,6 +1,6 @@
 # Introduction to React.js
 
-# How to setup react.js server on local machine:
+## How to setup react.js server on local machine:
 1. Install node.js and npm.
 2. Create a main directory and do npm init.
 3. Install following packages:
